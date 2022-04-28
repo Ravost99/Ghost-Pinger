@@ -18,8 +18,6 @@ async def on_ready():
 
 @bot.event
 async def on_message(message):
-    if message.content.lower() == 'restart':
-      os.system('python3 main.py')
     await bot.process_commands(message)
 
 
