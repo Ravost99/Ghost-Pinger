@@ -9,6 +9,11 @@ A very simple solution: **Ghost Pinger**
 
 ## Read More Below
 
+|Item|Info|
+|-|-|
+|Prefix|`>>` or @mention (changable in `main.py line 15`)|
+|||
+
 - Made with [disnake](https://github.com/DisnakeDev/disnake)
 - Updates coming soon, like:
   - Channel blacklist

@@ -12,5 +12,4 @@ def run():
   
 def keep_alive():
   t = Thread(target=run)
-  t.start()  
-  print("Server online")
+  t.start()

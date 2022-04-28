@@ -36,9 +36,20 @@ async def on_message_delete(message):
     msg = message.content
     if '@' in msg:
       embed = disnake.Embed(title='Ghost Ping Found!', color=0xFF0000)
-      embed.add_field(name='Author', value=message.author, inline=True)
-      embed.add_field(name='Message:', value=msg, inline=True)
-      embed.set_footer(text=f'{current_time} {current_date}')
+      embed.add_field(
+        name='Author',
+        value=message.author,
+        inline=True
+      )
+      embed.add_field(
+        name='Message:',
+        value=msg,
+        inline=True
+      )
+      embed.set_footer(
+        text=f'{current_time} {current_date}'
+      )
+      print(f'Ghost Ping Found! By {message.author}, message: {msg}. ({current_time} {current_date})\n')
       time.sleep(1)
       await message.channel.send(embed=embed)
 
