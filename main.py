@@ -1,4 +1,10 @@
-import disnake, os, time
+import os
+try:
+  import disnake, time
+except ModuleNotFoundError:
+  os.system('pip install disnake')
+
+import disnake
 from disnake.ext import commands
 from datetime import datetime
 from up import keep_alive
