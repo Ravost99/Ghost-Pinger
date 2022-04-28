@@ -35,7 +35,10 @@ async def on_message_delete(message):
 
     msg = message.content
     if '@' in msg:
-      embed = disnake.Embed(title='Ghost Ping Found!', color=0xFF0000)
+      embed = disnake.Embed(
+        title='Ghost Ping Found!',
+        color=0xFF0000
+      )
       embed.add_field(
         name='Author',
         value=message.author,
