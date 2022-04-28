@@ -12,8 +12,12 @@ A very simple solution: **Ghost Pinger**
 |Item|Info|
 |-|-|
 |Prefix|`>>` or @mention (changable in `main.py line 15`)|
-|||
+|Bot Token|Add 'TOKEN' with the bots token to `.env` or just add a string to run the bot|
 
+- Owner Information:
+  - Replit: [Ravost](https://replit.com/@Ravost)
+  - Github: [Ravost99](https://github.com/Ravost99)
+  - [Discord](https://discord.com): Ravost99#3361
 - Made with [disnake](https://github.com/DisnakeDev/disnake)
 - Updates coming soon, like:
   - Channel blacklist
