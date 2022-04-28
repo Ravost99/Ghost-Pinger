@@ -60,8 +60,8 @@ async def on_message_delete(message):
 @bot.command(name='ping', description='Check if the bot is alive.')
 async def ping(ctx):
     embed = disnake.Embed(
-        title='Nope you can\'t ghost ping.',
-        description=
+      title='Nope you can\'t ghost ping.',
+      description=
         f'Lol I\'m alive {round(bot.latency * 1000)} ms :ping_pong: '
     )
     await ctx.send(embed=embed)
